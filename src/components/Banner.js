@@ -1,4 +1,6 @@
-export const Banner = () => {
+import "./styling.css"
+
+function Banner () {
     return (
         <div>
             <header>Orbit Report</header>
@@ -6,3 +8,5 @@ export const Banner = () => {
         </div>       
     )
 }
+
+export default Banner
